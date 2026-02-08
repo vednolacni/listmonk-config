@@ -4,7 +4,7 @@ root_url = "https://listmonk-production-120e.up.railway.app"
 
 [db]
 host = "${LISTMONK_db_host}"
-port = ${LISTMONK_db_port}
+port = "${LISTMONK_db_port}"
 user = "${LISTMONK_db_user}"
 password = "${LISTMONK_db_password}"
 database = "${LISTMONK_db_database}"
