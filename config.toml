@@ -1,6 +1,6 @@
 [app]
 address = "0.0.0.0:9000"
-root_url = "https://listmonk-production-120e.up.railway.app"
+root_url = "https://lebere.up.railway.app"
 
 [db]
 host = "${LISTMONK_db_host}"
