@@ -10,6 +10,16 @@ password = "${LISTMONK_db_password}"
 database = "${LISTMONK_db_database}"
 ssl_mode = "disable"
 
+[messengers]
+timeout = "30s"
+
+[[messengers.postback]]
+name = "Gmail API (Railway)"
+enabled = true
+url = "https://listmonk-gmail-messenger-production.up.railway.app/postback"
+username = "${LISTMONK_POSTBACK_USER}"
+password = "${LISTMONK_POSTBACK_PASS}"
+
 [media]
 provider = "filesystem"
 upload_path = "/listmonk/uploads"
