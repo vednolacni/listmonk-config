@@ -14,7 +14,7 @@ ssl_mode = "disable"
 timeout = "30s"
 
 [[messengers.postback]]
-name = "Gmail API (Railway)"
+name = "gmail_api_railway"
 enabled = true
 url = "https://listmonk-gmail-messenger-production.up.railway.app/postback"
 username = "${LISTMONK_POSTBACK_USER}"
