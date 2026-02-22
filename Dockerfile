@@ -1,4 +1,4 @@
-FROM listmonk/listmonk:v3.0.0
+FROM listmonk/listmonk:v6.0.0
 
 COPY config.toml /listmonk/config.toml
 COPY start.sh /start.sh
